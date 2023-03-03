@@ -1,5 +1,4 @@
 import React from 'react';
-import './Episod.css';
 import client1 from '../../../Assets/Client-1.jpg';
 import client2 from '../../../Assets/Client-2.jpg';
 import client3 from '../../../Assets/Client-3.jpg';
@@ -16,7 +15,7 @@ const Episod = () => {
                     <p className='font-normal text-base mt-4'>Apparently we had reached a great height in the atmosphere, for the sky was a dead black.</p>
                 </div>
                 <div>
-                    <button className='episodd_btn sm:mt-0 mt-5'>See All Episiodes</button>
+                    <button className='bg-[#503AE7] text-base font-medium text-white py-3 px-8 sm:mt-0 mt-5'>See All Episiodes</button>
                 </div>
             </div>
             {/* ********Epison Bottom area************* */}
