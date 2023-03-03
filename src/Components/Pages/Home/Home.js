@@ -7,15 +7,12 @@ import Podcast from './Podcast/Podcast';
 
 const Home = () => {
     return (
-       <div>
          <div className='mx-auto w-11/12 px-5'>
             <Hero></Hero>
             <Podcast></Podcast>
             <Episod></Episod>
             <Blog></Blog>
         </div>
-        <Footer></Footer>
-       </div>
     );
 };
 
