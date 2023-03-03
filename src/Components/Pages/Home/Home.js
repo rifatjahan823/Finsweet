@@ -1,4 +1,5 @@
 import React from 'react';
+import Blog from './Blog/Blog';
 import Episod from './Episod/Episod';
 import Hero from './Hero/Hero';
 import Podcast from './Podcast/Podcast';
@@ -9,6 +10,7 @@ const Home = () => {
             <Hero></Hero>
             <Podcast></Podcast>
             <Episod></Episod>
+            <Blog></Blog>
         </div>
     );
 };
