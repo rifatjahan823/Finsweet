@@ -22,7 +22,7 @@ const Footer = () => {
             {/* **********Sponsors Ssection********** */}
             <div className='-mb-20 z-50 relative'>
                 <div className='mx-auto w-11/12 px-4  '>
-                    <div className='bg-[#503AE7] p-16'>
+                    <div className='bg-[#503AE7] sm:p-16 p-7'>
                         <h3 className='mb-16 text-center text-3xl text-white font-bold'>Our Sponsors</h3>
                         <Swiper
                             // install Swiper modules
@@ -30,6 +30,7 @@ const Footer = () => {
                             autoplay={{
                                 delay: 2000,
                             }}
+        
                             pagination={{
                                 clickable: true,
                             }}
@@ -131,7 +132,7 @@ const Footer = () => {
             {/* ***********Main-footer*********** */}
             {/* footer-top */}
             <div className='bg-[#14142B] pt-44 pb-28 px-4 '>
-                <div className='mx-auto w-11/12 grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1   mt-7'>
+                <div className='mx-auto w-11/12 grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-5  mt-7'>
                     {/* **********Logo******** */}
                     <div className=''>
                         {/* <Link to='/' className=' text-white'>&#x7B;Finsweet </Link> */}

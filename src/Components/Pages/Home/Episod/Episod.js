@@ -10,13 +10,13 @@ const Episod = () => {
     return (
         <div className='epison_section'>
             {/* ********Epison Top area************* */}
-            <div className='flex justify-between items-end  flex-row '>
-                <div className='basis-1/3'>
+            <div className='sm:flex justify-between items-end  sm:flex-row grid grid-cols-1 '>
+                <div className='lg:basis-1/3 md:basis-2/3 sm:basis-2/4'>
                     <h3 className='text-2xl font-bold'>Recent Episodes</h3>
                     <p className='font-normal text-base mt-4'>Apparently we had reached a great height in the atmosphere, for the sky was a dead black.</p>
                 </div>
                 <div>
-                    <button className='episodd_btn'>See All Episiodes</button>
+                    <button className='episodd_btn sm:mt-0 mt-5'>See All Episiodes</button>
                 </div>
             </div>
             {/* ********Epison Bottom area************* */}
