@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../Shared/Footer/Footer';
 import Blog from './Blog/Blog';
 import Episod from './Episod/Episod';
 import Hero from './Hero/Hero';

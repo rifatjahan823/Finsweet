@@ -4,7 +4,7 @@ import aduiTrack from '../../../Assets/Audio track.png';
 
 const Hero = () => {
     return (
-        <div className='grid md:grid-cols-2 grid-cols-1 lg:gap-16 gap-x-4 gap-y-10 items-center justify-center xl:px-20 lg:px-8 sm:py-32 py-32'>
+        <div className='grid md:grid-cols-2 grid-cols-1 lg:gap-16 gap-x-4 gap-y-10 items-center justify-center xl:px-20 lg:px-8 sm:py-32 '>
             {/* ************hero_content area********** */}
             <div className='hero_content'>
                 <h2 className='xl:text-5xl  md:text-4xl sm:text-5xl text-3xl font-bold'>Become The Hero <br /> Of Your Own Story</h2> 

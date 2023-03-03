@@ -7,12 +7,12 @@ const Blog = () => {
     return (
         <div className='blog_section grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 my-32'>
             {/* **********Article-1********* */}
-            <div className='h-100 bg-[#F4F2FF]'>
+            <div className='h-100 bg-[#F4F2FF] relative'>
                 <div className='pt-10 pl-10 pr-11  '>
                     <h3 className='font-bold sm:text-3xl text-2xl pb-4'>Read our <br /> articles & news</h3>
                     <p className='text-[#503AE7] text-base font-semibold'>See More</p>
                 </div>
-                <img className='mt-11' src={shape} alt="" />
+                <img className='mt-11 xl:absolute bottom-0 w-full left-0 right-0' src={shape} alt="" />
             </div>
             {/* ************Article-2*********** */}
             <div className='h-100'>
