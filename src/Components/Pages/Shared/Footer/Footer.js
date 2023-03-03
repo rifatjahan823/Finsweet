@@ -23,7 +23,7 @@ const Footer = () => {
             <div className='-mb-20 z-50 relative'>
                 <div className='mx-auto w-11/12 px-4  '>
                     <div className='bg-[#503AE7] sm:p-16 p-7'>
-                        <h3 className='mb-16 text-center text-3xl text-white font-bold'>Our Sponsors</h3>
+                        <h3 className='mb-16 text-center sm:text-3xl text-2xl text-white font-bold'>Our Sponsors</h3>
                         <Swiper
                             // install Swiper modules
                             modules={[Autoplay,]}

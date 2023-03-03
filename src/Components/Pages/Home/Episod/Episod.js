@@ -25,7 +25,7 @@ const Episod = () => {
                 <div className='relative'>
                     <img className='w-full mb-8' src={client1} alt="" />
                     <img className='absolute top-4 right-4' src={episonIcon} alt="" />
-                    <h2 className='text-2xl font-semibold leading-7'>Ep 1: How to build a world-class business brand</h2>
+                    <h2 className='sm:text-2xl text-lg font-semibold leading-7'>Ep 1: How to build a world-class business brand</h2>
                     <p className='text-base my-4'>Lorem ipsum at vero eos et accusam et justo duo dolores et ea rebum.</p>
                     <div className='flex items-center'>
                         <img src={lisenIcon} alt="" />
@@ -36,7 +36,7 @@ const Episod = () => {
                 <div className='relative'>
                     <img className='w-full mb-8' src={client2} alt="" />
                     <img className='absolute top-4 right-4' src={episonIcon} alt="" />
-                    <h2 className='text-2xl font-semibold leading-7'>Ep 2: Getting the first 100 customers for your business</h2>
+                    <h2 className='sm:text-2xl text-lg  font-semibold leading-7'>Ep 2: Getting the first 100 customers for your business</h2>
                     <p className='text-base my-4'>Lorem ipsum at vero eos et accusam et justo duo dolores et ea rebum.</p>
                     <div className='flex items-center'>
                         <img src={lisenIcon} alt="" />
@@ -47,7 +47,7 @@ const Episod = () => {
                 <div className='relative'>
                     <img className='w-full mb-8' src={client3} alt="" />
                     <img className='absolute top-4 right-4' src={episonIcon} alt="" />
-                    <h2 className='text-2xl font-semibold leading-7'>Ep 3: Should I raise money for my startup, or not?</h2>
+                    <h2 className='sm:text-2xl text-lg font-semibold leading-7'>Ep 3: Should I raise money for my startup, or not?</h2>
                     <p className='text-base my-4'>Lorem ipsum at vero eos et accusam et justo duo dolores et ea rebum.</p>
                     <div className='flex items-center'>
                         <img src={lisenIcon} alt="" />
